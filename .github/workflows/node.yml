@@ -31,7 +31,7 @@ jobs:
     strategy:
       matrix:
         node-version: [ "18", "20" ]
-    runs-on: "ubuntu-22.04"
+    runs-on: "stykler-vm-amd64-2c-4g-20g"
     defaults:
       run:
         shell: bash
